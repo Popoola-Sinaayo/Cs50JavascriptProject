@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+/*.email_views {
+    background-color: darkgrey;
+}
+*/
+sent-mails {
+    background-color: whitesmoke;
+}
+
+.inbox_view {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
