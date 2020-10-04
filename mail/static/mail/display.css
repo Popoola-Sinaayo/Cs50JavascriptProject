@@ -1,0 +1,157 @@
+textarea {
+    min-height: 400px;
+}
+
+/*.email_views {
+    background-color: darkgrey;
+}
+*/
+/* sent-mails {
+    background-color: whitesmoke;
+}
+
+.inbox_view {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+*/
+
+body {
+    background-color: #393cc5;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    background-color: #393cc5;   
+}
+#body {
+    background-color: #393cc5
+}
+header {
+    background-color: #393cc5;
+    margin-right: 10px;
+}
+#send-mail {
+    color: #f64c72;
+    font-style: unset;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+#send-mail-span {
+    color: #f64c72;
+}
+
+nav {
+    background-color: #393cc5;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white!;
+    text-decoration: none;
+}
+.links {
+    color: white;
+}
+.links_to_donation {
+    color: white;
+    background-color: #f64c72;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+
+}
+#link_to_donation {
+    margin-top: 0px;
+}
+
+.links_to_developers {
+    color: white;
+    border: 2px solid #f64c72;
+    padding: 10px 20px 10px 20px;
+}
+#link_to_developer {
+    margin-top: 0px;
+}
+
+.links_to_donation:hover {
+    color: #f64c72;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+
+}
+.links_to_developers:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: #f64c72;
+    padding: 10px 20px 10px 20px;
+}
+@media(max-width: 1023px) {
+    nav {
+        margin-right: 0px;
+        text-align: center;
+        float: none;
+    }
+    #send-mail {
+        text-align: center;
+        float: none;
+    }
+}
+@media(max-width: 696px) {
+    nav {
+        font-size: 10px;
+    }
+}
+@media(max-width: 525px) {
+    nav {
+        font-size: 7px;
+    }
+}
+@media(max-width: 445px) {
+    nav {
+        font-size: 5px;
+    }
+}
+@media(max-width: 383px) {
+    nav {
+        display: flex;
+    }
+}
+
+#main_header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+@media(min-width: 1200px) {
+    #main_header {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 550px;
+        float: right;
+        display: flex;
+        justify-content: center;
+    }
+}
+svg{
+    text-align: center;
+}
+#main_header_h1 {
+    color: white;
+}
+#main_header_svg {
+    text-align: center;
+}
